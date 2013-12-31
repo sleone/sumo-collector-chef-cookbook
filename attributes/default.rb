@@ -35,8 +35,8 @@ default['sumologic']['accessID']    = 'YOUR_ID'
 default['sumologic']['accessKey']  = 'YOUR_KEY'
 
 # Data Bag for Collector Credentials
-default['sumologic']['credentials']['bag_name'] = 'sumo-creds'
-default['sumologic']['credentials']['item_name'] = 'api-creds'
+#default['sumologic']['credentials']['bag_name'] = 'sumo-creds'
+#default['sumologic']['credentials']['item_name'] = 'api-creds'
 
 # Ephemeral node (collector config deleted after 2 days of no heartbeat - data is not deleted from Sumo Logic)
 default['sumologic']['ephemeral'] = 'true'
